@@ -1,7 +1,8 @@
 ﻿using System;
+
 namespace UserMaintenance
 {
-    public class User
+    internal class User
     {
         public Guid ID { get; set; } = Guid.NewGuid();
         public string FirstName { get; set; }
